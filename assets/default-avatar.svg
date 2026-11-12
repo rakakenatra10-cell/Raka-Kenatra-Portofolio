@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd5b5"/>
+      <stop offset="100%" stop-color="#f8b88b"/>
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d3748"/>
+      <stop offset="100%" stop-color="#1a202c"/>
+    </linearGradient>
+    <linearGradient id="clothGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle with Glow -->
+  <circle cx="100" cy="100" r="94" fill="url(#bgGrad)" stroke="#ffffff" stroke-width="6"/>
+
+  <!-- Tech Circle Pattern -->
+  <circle cx="100" cy="100" r="82" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Shoulders & Clothes -->
+  <path d="M42 186 C42 145, 65 135, 100 135 C135 135, 158 145, 158 186 Z" fill="url(#clothGrad)"/>
+  <path d="M85 135 L100 156 L115 135 Z" fill="#ffffff" opacity="0.9"/>
+  <!-- Hoodie Collar Accent -->
+  <path d="M72 140 Q100 162 128 140" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <rect x="88" y="112" width="24" height="28" rx="6" fill="#e8a87c"/>
+
+  <!-- Ears -->
+  <ellipse cx="64" cy="98" rx="8" ry="12" fill="url(#skinGrad)"/>
+  <ellipse cx="136" cy="98" rx="8" ry="12" fill="url(#skinGrad)"/>
+
+  <!-- Head Base -->
+  <path d="M68 95 C68 62, 132 62, 132 95 C132 128, 68 128, 68 95 Z" fill="url(#skinGrad)"/>
+
+  <!-- Hair Base Back -->
+  <path d="M65 88 C65 52, 135 52, 135 88 C135 70, 65 70, 65 88 Z" fill="url(#hairGrad)"/>
+
+  <!-- Stylish Modern Hair Bangs -->
+  <path d="M63 80 C60 52, 85 40, 110 40 C135 40, 142 56, 138 78 C130 65, 115 62, 105 66 C95 70, 85 64, 76 76 C70 82, 65 85, 63 80 Z" fill="url(#hairGrad)"/>
+
+  <!-- Eyebrows -->
+  <path d="M77 82 Q86 78 93 83" fill="none" stroke="#1a202c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M107 83 Q114 78 123 82" fill="none" stroke="#1a202c" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="93" r="4.5" fill="#1e293b"/>
+  <circle cx="86.5" cy="91.5" r="1.5" fill="#ffffff"/>
+  <circle cx="115" cy="93" r="4.5" fill="#1e293b"/>
+  <circle cx="116.5" cy="91.5" r="1.5" fill="#ffffff"/>
+
+  <!-- Nose -->
+  <path d="M98 94 Q100 102 103 102" fill="none" stroke="#d97746" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Friendly Smile -->
+  <path d="M88 110 Q100 120 112 110" fill="none" stroke="#b91c1c" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Cheerful Cheeks -->
+  <ellipse cx="76" cy="104" rx="5" ry="3" fill="#f43f5e" opacity="0.25"/>
+  <ellipse cx="124" cy="104" rx="5" ry="3" fill="#f43f5e" opacity="0.25"/>
+
+  <!-- Modern Glasses (Smart Tech Look) -->
+  <rect x="73" y="86" width="22" height="15" rx="5" fill="none" stroke="#0284c7" stroke-width="2.5"/>
+  <rect x="105" y="86" width="22" height="15" rx="5" fill="none" stroke="#0284c7" stroke-width="2.5"/>
+  <line x1="95" y1="93" x2="105" y2="93" stroke="#0284c7" stroke-width="2.5"/>
+  <path d="M73 92 L64 90" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M127 92 L136 90" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 70" width="60" height="70">
+  <defs>
+    <linearGradient id="serverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <!-- Server Unit 1 -->
+  <rect x="5" y="10" width="50" height="22" rx="4" fill="url(#serverGrad)" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="15" cy="21" r="3" fill="#22c55e"/>
+  <circle cx="24" cy="21" r="3" fill="#38bdf8"/>
+  <rect x="33" y="18" width="16" height="6" rx="2" fill="#334155"/>
+
+  <!-- Server Unit 2 -->
+  <rect x="5" y="38" width="50" height="22" rx="4" fill="url(#serverGrad)" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="15" cy="49" r="3" fill="#22c55e"/>
+  <circle cx="24" cy="49" r="3" fill="#eab308"/>
+  <rect x="33" y="46" width="16" height="6" rx="2" fill="#334155"/>
+
+  <!-- Server Feet -->
+  <rect x="10" y="62" width="8" height="4" fill="#0284c7"/>
+  <rect x="42" y="62" width="8" height="4" fill="#0284c7"/>
+</svg>
